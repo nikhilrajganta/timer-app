@@ -1,0 +1,39 @@
+<!-- HTML -->
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Timer App</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="gradient">
+    <div class="timer-container">
+      <div class="timer">
+        <span id="minutes">00</span>:<span id="seconds">00</span>
+      </div>
+      <div class="timer-options">
+        <input
+          type="number"
+          id="custom-minutes"
+          placeholder="Minutes"
+          min="0"
+          max="59"
+        />
+        <input
+          type="number"
+          id="custom-seconds"
+          placeholder="Seconds"
+          min="0"
+          max="59"
+        /><br /><br />
+        <button id="start-button">Start</button>
+        <button id="stop-button">Stop</button>
+        <button id="reset-button">Reset</button><br /><br />
+        <button id="1-minute-button">1 minute</button>
+        <button id="2-minute-button">2 minutes</button>
+        <button id="5-minute-button">5 minutes</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

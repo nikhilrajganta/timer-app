@@ -1,0 +1,67 @@
+/* CSS */
+/* .timer-container {
+    margin-top: 15%;
+    text-align: center;
+} */
+
+/* body {
+    background-image: linear-gradient(to right top, #bb9368, #bfa87e, #c5bc97, #ceceb2, #dae0ce);
+    background-size: 100% 200px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+  } */
+
+  body {
+    background-color: #dae0ce;
+    background-image: linear-gradient(to bottom top, #bb9368, #bfa87e, #c5bc97, #ceceb2, #dae0ce);
+    background-size: 100% 200px;
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+  }
+  
+  .timer-container {
+    margin: 12% 20%;
+
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  }
+.timer {
+    margin: auto;
+    font-size: 48px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+#minutes, #seconds {
+    margin: auto;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+}
+
+.timer-options {
+    margin-top: 30px;
+}
+
+#custom-minutes, #custom-seconds {
+    width: 80px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+#start-button, #stop-button, #reset-button, #1-minute-button, #2-minute-button, #5-minute-button {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#start-button:hover, #stop-button:hover, #reset-button:hover, #1-minute-button:hover, #2-minute-button:hover, #5-minute-button:hover {
+    background-color: #3e8e41;
+}
