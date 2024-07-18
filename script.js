@@ -70,7 +70,7 @@ function resetTimer() {
   minutes = 0;
   seconds = 0;
   document.getElementById("minutes").textContent = "00";
-  document.getElementById("seconds").textContent = "00";
+  document.getElementById(" seconds").textContent = "00";
   timerStarted = false;
   clearInterval(intervalId); // Clear the interval before resetting
 }
